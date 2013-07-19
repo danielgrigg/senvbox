@@ -1,0 +1,4 @@
+*.un~
+csobox.xcodeproj/project.xcworkspace/
+csobox.xcodeproj/xcuserdata/
+*.swp

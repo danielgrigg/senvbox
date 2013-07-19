@@ -14,7 +14,54 @@
 		654B24931798CDE50075D3F0 /* SSDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B24921798CDE50075D3F0 /* SSDocument.m */; };
 		654B24961798CDE50075D3F0 /* SSDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654B24941798CDE50075D3F0 /* SSDocument.xib */; };
 		654B24991798CDE50075D3F0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654B24971798CDE50075D3F0 /* MainMenu.xib */; };
+		654B24A01798CE2F0075D3F0 /* cso.icns in Resources */ = {isa = PBXBuildFile; fileRef = 654B249F1798CE2F0075D3F0 /* cso.icns */; };
+		654B24A21798CED00075D3F0 /* envelope.icns in Resources */ = {isa = PBXBuildFile; fileRef = 654B24A11798CED00075D3F0 /* envelope.icns */; };
+		654B24AB1798CFF50075D3F0 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654B24AA1798CFF50075D3F0 /* QuickLook.framework */; };
+		654B24AD1798CFF50075D3F0 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654B24AC1798CFF50075D3F0 /* ApplicationServices.framework */; };
+		654B24AF1798CFF50075D3F0 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654B24AE1798CFF50075D3F0 /* CoreServices.framework */; };
+		654B24B11798CFF50075D3F0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654B24B01798CFF50075D3F0 /* CoreFoundation.framework */; };
+		654B24B71798CFF50075D3F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 654B24B51798CFF50075D3F0 /* InfoPlist.strings */; };
+		654B24B91798CFF50075D3F0 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B24B81798CFF50075D3F0 /* GenerateThumbnailForURL.m */; };
+		654B24BB1798CFF50075D3F0 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B24BA1798CFF50075D3F0 /* GeneratePreviewForURL.m */; };
+		654B24BD1798CFF50075D3F0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 654B24BC1798CFF50075D3F0 /* main.c */; };
+		654B24C41798D05C0075D3F0 /* csocrypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 654B24C21798D05C0075D3F0 /* csocrypto.cpp */; };
+		654B24C51798D05C0075D3F0 /* csocrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 654B24C31798D05C0075D3F0 /* csocrypto.h */; };
+		654B24CB1798D1150075D3F0 /* senvql.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 654B24A91798CFF50075D3F0 /* senvql.qlgenerator */; };
+		654B24CE1798DDAB0075D3F0 /* senvql.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 654B24A91798CFF50075D3F0 /* senvql.qlgenerator */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		654B24C81798D0F80075D3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654B24741798CDE50075D3F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654B24A81798CFF50075D3F0;
+			remoteInfo = senvql;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		654B24CA1798D1080075D3F0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/QuickLook;
+			dstSubfolderSpec = 1;
+			files = (
+				654B24CB1798D1150075D3F0 /* senvql.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654B24CC1798D5270075D3F0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/QuickLook";
+			dstSubfolderSpec = 0;
+			files = (
+				654B24CE1798DDAB0075D3F0 /* senvql.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		654B247C1798CDE50075D3F0 /* senvbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = senvbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +78,21 @@
 		654B24921798CDE50075D3F0 /* SSDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSDocument.m; sourceTree = "<group>"; };
 		654B24951798CDE50075D3F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSDocument.xib; sourceTree = "<group>"; };
 		654B24981798CDE50075D3F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		654B249F1798CE2F0075D3F0 /* cso.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = cso.icns; sourceTree = "<group>"; };
+		654B24A11798CED00075D3F0 /* envelope.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = envelope.icns; sourceTree = "<group>"; };
+		654B24A91798CFF50075D3F0 /* senvql.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = senvql.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		654B24AA1798CFF50075D3F0 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		654B24AC1798CFF50075D3F0 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		654B24AE1798CFF50075D3F0 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		654B24B01798CFF50075D3F0 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		654B24B41798CFF50075D3F0 /* senvql-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "senvql-Info.plist"; sourceTree = "<group>"; };
+		654B24B61798CFF50075D3F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		654B24B81798CFF50075D3F0 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		654B24BA1798CFF50075D3F0 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		654B24BC1798CFF50075D3F0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		654B24BE1798CFF50075D3F0 /* senvql-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "senvql-Prefix.pch"; sourceTree = "<group>"; };
+		654B24C21798D05C0075D3F0 /* csocrypto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = csocrypto.cpp; sourceTree = "<group>"; };
+		654B24C31798D05C0075D3F0 /* csocrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csocrypto.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +104,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		654B24A41798CFF50075D3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654B24AB1798CFF50075D3F0 /* QuickLook.framework in Frameworks */,
+				654B24AD1798CFF50075D3F0 /* ApplicationServices.framework in Frameworks */,
+				654B24AF1798CFF50075D3F0 /* CoreServices.framework in Frameworks */,
+				654B24B11798CFF50075D3F0 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		654B24731798CDE50075D3F0 = {
 			isa = PBXGroup;
 			children = (
+				654B24A11798CED00075D3F0 /* envelope.icns */,
+				654B249F1798CE2F0075D3F0 /* cso.icns */,
 				654B24851798CDE50075D3F0 /* senvbox */,
+				654B24B21798CFF50075D3F0 /* senvql */,
 				654B247E1798CDE50075D3F0 /* Frameworks */,
 				654B247D1798CDE50075D3F0 /* Products */,
 			);
@@ -58,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				654B247C1798CDE50075D3F0 /* senvbox.app */,
+				654B24A91798CFF50075D3F0 /* senvql.qlgenerator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				654B247F1798CDE50075D3F0 /* Cocoa.framework */,
+				654B24AA1798CFF50075D3F0 /* QuickLook.framework */,
+				654B24AC1798CFF50075D3F0 /* ApplicationServices.framework */,
+				654B24AE1798CFF50075D3F0 /* CoreServices.framework */,
+				654B24B01798CFF50075D3F0 /* CoreFoundation.framework */,
 				654B24811798CDE50075D3F0 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -105,7 +186,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		654B24B21798CFF50075D3F0 /* senvql */ = {
+			isa = PBXGroup;
+			children = (
+				654B24C21798D05C0075D3F0 /* csocrypto.cpp */,
+				654B24C31798D05C0075D3F0 /* csocrypto.h */,
+				654B24B81798CFF50075D3F0 /* GenerateThumbnailForURL.m */,
+				654B24BA1798CFF50075D3F0 /* GeneratePreviewForURL.m */,
+				654B24BC1798CFF50075D3F0 /* main.c */,
+				654B24B31798CFF50075D3F0 /* Supporting Files */,
+			);
+			path = senvql;
+			sourceTree = "<group>";
+		};
+		654B24B31798CFF50075D3F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				654B24B41798CFF50075D3F0 /* senvql-Info.plist */,
+				654B24B51798CFF50075D3F0 /* InfoPlist.strings */,
+				654B24BE1798CFF50075D3F0 /* senvql-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		654B24A51798CFF50075D3F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654B24C51798D05C0075D3F0 /* csocrypto.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		654B247B1798CDE50075D3F0 /* senvbox */ = {
@@ -115,15 +230,37 @@
 				654B24781798CDE50075D3F0 /* Sources */,
 				654B24791798CDE50075D3F0 /* Frameworks */,
 				654B247A1798CDE50075D3F0 /* Resources */,
+				654B24CA1798D1080075D3F0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				654B24C91798D0F80075D3F0 /* PBXTargetDependency */,
 			);
 			name = senvbox;
 			productName = senvbox;
 			productReference = 654B247C1798CDE50075D3F0 /* senvbox.app */;
 			productType = "com.apple.product-type.application";
+		};
+		654B24A81798CFF50075D3F0 /* senvql */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654B24BF1798CFF50075D3F0 /* Build configuration list for PBXNativeTarget "senvql" */;
+			buildPhases = (
+				654B24A31798CFF50075D3F0 /* Sources */,
+				654B24A41798CFF50075D3F0 /* Frameworks */,
+				654B24A51798CFF50075D3F0 /* Headers */,
+				654B24A61798CFF50075D3F0 /* Resources */,
+				654B24A71798CFF50075D3F0 /* Rez */,
+				654B24CC1798D5270075D3F0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = senvql;
+			productName = senvql;
+			productReference = 654B24A91798CFF50075D3F0 /* senvql.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -148,6 +285,7 @@
 			projectRoot = "";
 			targets = (
 				654B247B1798CDE50075D3F0 /* senvbox */,
+				654B24A81798CFF50075D3F0 /* senvql */,
 			);
 		};
 /* End PBXProject section */
@@ -161,10 +299,30 @@
 				654B24901798CDE50075D3F0 /* Credits.rtf in Resources */,
 				654B24961798CDE50075D3F0 /* SSDocument.xib in Resources */,
 				654B24991798CDE50075D3F0 /* MainMenu.xib in Resources */,
+				654B24A01798CE2F0075D3F0 /* cso.icns in Resources */,
+				654B24A21798CED00075D3F0 /* envelope.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654B24A61798CFF50075D3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654B24B71798CFF50075D3F0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		654B24A71798CFF50075D3F0 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		654B24781798CDE50075D3F0 /* Sources */ = {
@@ -176,7 +334,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		654B24A31798CFF50075D3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654B24B91798CFF50075D3F0 /* GenerateThumbnailForURL.m in Sources */,
+				654B24BB1798CFF50075D3F0 /* GeneratePreviewForURL.m in Sources */,
+				654B24BD1798CFF50075D3F0 /* main.c in Sources */,
+				654B24C41798D05C0075D3F0 /* csocrypto.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		654B24C91798D0F80075D3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654B24A81798CFF50075D3F0 /* senvql */;
+			targetProxy = 654B24C81798D0F80075D3F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		654B24881798CDE50075D3F0 /* InfoPlist.strings */ = {
@@ -209,6 +386,14 @@
 				654B24981798CDE50075D3F0 /* en */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		654B24B51798CFF50075D3F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654B24B61798CFF50075D3F0 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,6 +482,44 @@
 			};
 			name = Release;
 		};
+		654B24C01798CFF50075D3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "senvql/senvql-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include/csocore;
+				INFOPLIST_FILE = "senvql/senvql-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lcsocore",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		654B24C11798CFF50075D3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "senvql/senvql-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/local/include/csocore;
+				INFOPLIST_FILE = "senvql/senvql-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				OTHER_LDFLAGS = (
+					"-L/usr/local/lib",
+					"-lcsocore",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -314,6 +537,14 @@
 			buildConfigurations = (
 				654B249D1798CDE50075D3F0 /* Debug */,
 				654B249E1798CDE50075D3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		654B24BF1798CFF50075D3F0 /* Build configuration list for PBXNativeTarget "senvql" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654B24C01798CFF50075D3F0 /* Debug */,
+				654B24C11798CFF50075D3F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
