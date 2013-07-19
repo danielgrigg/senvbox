@@ -15,7 +15,7 @@
 extern "C" {
 #endif
   
-int render_envelope(const char* filename);
+int render_envelope(const char* filename, const char* out_dir);
   
 #ifdef __cplusplus
 }

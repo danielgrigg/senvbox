@@ -99,9 +99,9 @@ namespace cs {
     return EnvelopeReaderPtr();
   }
   
-  void decrypt_file(EnvelopeReaderPtr& reader) {
+  void decrypt_file(EnvelopeReaderPtr& reader, const string& out_dir) {
     info("::decrypt_file...");
-    reader->ExtractToDirectory("/tmp/");
+    reader->ExtractToDirectory(out_dir);
   }
 }
 
@@ -136,7 +136,7 @@ void socket_test() {
   
 }
 
-int render_envelope(const char* filename)
+int render_envelope(const char* filename, const char* out_dir)
 {
   // std::vector<int> bar;
   // bar.push_back(42);
@@ -149,7 +149,9 @@ int render_envelope(const char* filename)
   auto store_session = cs::store_session(login_session);  
   auto reader = cs::envelope_reader(login_session, filename);
   
-  cs::decrypt_file(reader);
+  cs::decrypt_file(reader, out_dir);
   
   return 42;
 }
+
+
